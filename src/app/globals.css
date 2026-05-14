@@ -1,5 +1,5 @@
 @import "tailwindcss";
-@import "daisyui";
+@plugin "daisyui";
 
 @plugin "daisyui" {
   themes: portfolio --default; 
@@ -9,7 +9,7 @@
 
 :root {
   --color-primary: #D9DEE8;
-  --color-base-100: #0e131f;
+  --color-secondary: #0e131f;
   
   --color-base-content: #D9DEE8;  
 }
@@ -22,4 +22,8 @@
 body {
   background-color: var(--color-background);
   color: var(--color-foreground);
+}
+
+.tooltip-primary::before {
+    color: #0e131f;
 }
