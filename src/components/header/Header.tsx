@@ -9,7 +9,7 @@ import NavLink from "@/components/header/NavLink";
  */
 export default function Header() {
     return (
-        <header className="navbar bg-secondary backdrop-blur-md shadow-xl md:px-12">
+        <header className="navbar bg-secondary backdrop-blur-md shadow-xl md:px-12 sticky top-0">
             <div className="navbar-start">
                 <Link href="/" className="hover:opacity-80 transition-opacity">
                     <Image
