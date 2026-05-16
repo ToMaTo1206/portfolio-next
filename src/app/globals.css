@@ -2,7 +2,15 @@
 @plugin "daisyui";
 
 @plugin "daisyui" {
-  themes: portfolio --default; 
+  themes: portfolio --default;
+}
+
+@theme {
+  --font-nunito: var(--font-nunito), sans-serif;
+  --font-poppins: var(--font-poppins), sans-serif;
+
+  --color-background: #0e131f;
+  --color-foreground: #D9DEE8;
 }
 
 @custom-variant portfolio [data-theme='portfolio'];
