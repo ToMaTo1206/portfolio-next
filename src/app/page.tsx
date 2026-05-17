@@ -7,6 +7,11 @@ export default function Home() {
       <main className="flex flex-col">
           <Header/>
           <Hero/>
+          <div className="divider px-10">
+              <p className="text-4xl font-bold">
+                  Parcours
+              </p>
+          </div>
           <Career/>
       </main>
   );
