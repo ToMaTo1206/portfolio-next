@@ -12,7 +12,7 @@ export default function Hero(){
         <div className="hero min-h-screen">
             <div className="hero-content flex-col lg:flex-row-reverse">
                 <Image
-                    src="/profil/hero2.png"
+                    src="/profil/hero.png"
                     width={500}
                     height={500}
                     priority
