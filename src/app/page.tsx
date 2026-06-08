@@ -1,6 +1,7 @@
 import Header from "@/components/header/Header"
 import Hero from "@/components/hero/Hero";
 import Career from "@/components/career/career";
+import Projects from "@/components/projects/projects";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
               </p>
           </div>
           <Career/>
+          <Projects/>
       </main>
   );
 }
