@@ -11,7 +11,7 @@ import { faCode, faCube, faDatabase, faTerminal,} from "@fortawesome/free-solid-
 
 export default function Stack() {
     return(
-        <div className="flex flex-col justify-center w-full px-10 py-5">
+        <div className="flex flex-col justify-center w-full px-10 py-5 pt-12">
             <div className="divider pb-5">
                 <p className="text-4xl font-bold">
                     Stack technique
