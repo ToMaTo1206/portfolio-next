@@ -34,7 +34,7 @@ export default function RootLayout({
   return (
       <html
           lang="fr"
-          className={`${nunito.variable} ${poppins.variable} h-full antialiased`}
+          className={`${nunito.variable} ${poppins.variable} h-full antialiased scroll-smooth`}
       >
       <body className={`font-nunito min-h-full flex flex-col`}>
       {children}

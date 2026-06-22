@@ -2,7 +2,7 @@ import ProjectCard from "@/components/projects/project_card";
 
 export default function Projects() {
     return (
-        <div className="flex flex-col min-h-screen justify-center items-center w-full px-10">
+        <div className="flex flex-col min-h-screen justify-center items-center w-full px-10 scroll-mt-24" id={"projets"}>
             <div className="divider pb-5">
                 <p className="text-4xl font-bold">
                     Projets personnels

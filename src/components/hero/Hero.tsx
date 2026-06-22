@@ -9,7 +9,7 @@ import {faFileAlt, faLocationDot} from "@fortawesome/free-solid-svg-icons";
  */
 export default function Hero(){
     return (
-        <div className="hero min-h-screen">
+        <div className="hero min-h-screen scroll-mt-24" id="presentation">
             <div className="hero-content flex-col lg:flex-row-reverse">
                 <Image
                     src="/profil/hero.png"
