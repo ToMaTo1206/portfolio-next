@@ -21,14 +21,12 @@ export default function Header() {
             </div>
             <div className="navbar-end">
                 <ul className="menu menu-horizontal flex md:hidden">
-                    <NavLinkIcon href={"#presentation"} tooltip={"Page d'accueuil"} faIcon={faHouseUser} />
                     <NavLinkIcon href={"#parcours"} tooltip={"Parcours"} faIcon={faRoute} />
                     <NavLinkIcon href={"#projets"} tooltip={"Projets"} faIcon={faDiagramProject} />
                     <NavLinkIcon href={"#stack"} tooltip={"Stack technique"} faIcon={faCubes} />
                     <NavLinkIcon href={"#contact"} tooltip={"Contact"} faIcon={faContactCard} />
                 </ul>
                 <ul className="menu menu-horizontal hidden md:flex">
-                    <NavLink href={"#presentation"}>Présentation</NavLink>
                     <NavLink href={"#parcours"}>Parcours</NavLink>
                     <NavLink href={"#projets"}>Projets</NavLink>
                     <NavLink href={"#stack"}>Stack</NavLink>
