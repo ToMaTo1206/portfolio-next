@@ -1,6 +1,6 @@
 export default function Career(){
     return (
-        <div className="min-h-[70vh] lg:min-h-[50vh] justify-center flex flex-col items-center overflow-hidden px-2">
+        <div className="min-h-[70vh] max-md:min-h-[85vh] justify-center flex flex-col items-center overflow-hidden px-2 pb-20">
             <ul className="timeline timeline-vertical lg:timeline-horizontal w-full">
                 <li className="flex-1">
                     <div className="timeline-end text-xl">2021 - 2024</div>
