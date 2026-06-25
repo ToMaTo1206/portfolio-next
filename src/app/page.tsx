@@ -4,6 +4,7 @@ import Career from "@/components/career/career";
 import Projects from "@/components/projects/projects";
 import Stack from "@/components/stack/stack";
 import Footer from "@/components/footer/footer";
+import Contact from "@/components/contact/contact";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
           <Career/>
           <Projects/>
           <Stack/>
+          <Contact/>
           <Footer/>
       </main>
   );
