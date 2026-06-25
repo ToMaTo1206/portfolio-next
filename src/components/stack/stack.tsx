@@ -11,15 +11,15 @@ import { faCode, faCube, faDatabase, faTerminal,} from "@fortawesome/free-solid-
 
 export default function Stack() {
     return(
-        <div className="flex flex-col justify-center w-full px-10 py-5 pt-12 pb-20 scroll-mt-24" id={"stack"}>
+        <div className="flex flex-col justify-center w-full px-10 py-5 pt-12 pb-14 scroll-mt-16" id={"stack"}>
             <div className="divider pb-5">
                 <p className="text-4xl font-bold">
                     Stack technique
                 </p>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 py-4 gap-5">
-                <div className="card bg-base-100/70 shadow-2xl flex grow ps-5 rounded-md py-2">
+            <div className="grid grid-cols-1 md:grid-cols-2 py-6 gap-5 pt-16">
+                <div className="card bg-base-100/70 shadow-2xl flex grow ps-5 rounded-md py-5 pb-10">
                     <h1 className="text-2xl font-bold pt-2">
                         Front-End
                     </h1>
@@ -32,7 +32,7 @@ export default function Stack() {
                         <StackCard faIcon={faTailwindCss}>Tailwind</StackCard>
                     </div>
                 </div>
-                <div className="card bg-base-100/70 shadow-2xl flex grow ps-5 rounded-md py-2">
+                <div className="card bg-base-100/70 shadow-2xl flex grow ps-5 rounded-md py-5 pb-10">
                     <h1 className="text-2xl font-bold pt-2">
                         Back-End
                     </h1>
@@ -43,8 +43,8 @@ export default function Stack() {
                     </div>
                 </div>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-2 py-4 gap-5">
-                <div className="card bg-base-100/70 shadow-2xl flex grow ps-5 rounded-md py-2">
+            <div className="grid grid-cols-1 md:grid-cols-2 py-6 gap-5">
+                <div className="card bg-base-100/70 shadow-2xl flex grow ps-5 rounded-md py-5 pb-10">
                     <h1 className="text-2xl font-bold pt-2">
                         Outils
                     </h1>
@@ -57,7 +57,7 @@ export default function Stack() {
                         <StackCard faIcon={faTerminal}>PhpStorm</StackCard>
                     </div>
                 </div>
-                <div className="card bg-base-100/70 shadow-2xl flex grow ps-5 rounded-md py-2">
+                <div className="card bg-base-100/70 shadow-2xl flex grow ps-5 rounded-md py-5 pb-10">
                     <h1 className="text-2xl font-bold pt-2">
                         Base de données
                     </h1>
